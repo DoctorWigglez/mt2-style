@@ -28,10 +28,6 @@ md-toast {
     transform: translate3d(0px, -1.5px, 0px) !important;
 }
 
-.chat-input-box {
-    height: 40px !important;
-}
-
 .chat-line-username {
     font-weight: bold !important;
 }
