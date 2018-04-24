@@ -1,3 +1,57 @@
+/**************************/
+/** Wigglez ModCh.at CSS **/
+/**************************/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/* Remove whisper popups */
 md-toast {
     display: none !important;
 }
+
+/**** Chat ****/
+.chat-line:nth-of-type(even) {
+	background-color: #232121 !important;
+}
+.chat-line:nth-of-type(odd) {
+	background-color: #111111 !important;
+}
+
+.chat-wrapper {
+    font-size: 12pt !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+/* Scale down and center inline mod icons */
+.chat-line-mod-button-label {
+    height: 16px !important;
+    transform: translate3d(0px, -1.5px, 0px) !important;
+}
+
+.chat-input-box {
+    height: 40px !important;
+}
+
+.chat-line-username {
+    font-weight: bold !important;
+}
+
+.emote-menu-button {
+    bottom: 0px !important;
+}
+
+/**** Mod Card ****/
+.mod-card button.md-button.mod-card-mod-button {
+    margin: 0 !important;
+    padding: 6.5px !important;
+}
+
+.mod-card button.md-button.mod-card-mod-button img {
+    height: 32px !important;
+    transform: none !important;
+}
+
+.md-button {
+    padding: 0 !important;
+}
+
